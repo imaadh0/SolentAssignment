@@ -1,0 +1,165 @@
+/* reviews.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+}
+
+
+
+/* Header styles */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.popular-reviews {
+  text-align: center;
+}
+
+.review-card {
+  background-color: rgb;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.review-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.review-card-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.review-card-info {
+  text-align: left;
+}
+
+.review-card-content {
+  margin-bottom: 10px;
+}
+
+.review-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #777;
+}
+
+/* Navigation styles */
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* reviews.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  position: relative;
+  color: #ffffff;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/reviews1bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: blur(4px); 
+  z-index: -1;
+}
+
+footer {
+  background-color: rgb(0, 0, 0); 
+  color: #fff; 
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

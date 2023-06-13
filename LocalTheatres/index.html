@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>The Local Theatre</title>
+    <style>
+        .movie-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .movie-card {
+            width: 250px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .movie-card img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .movie-card .movie-info {
+            padding: 10px;
+        }
+
+        .movie-card h5 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .movie-card p {
+            margin: 0;
+        }
+
+        .movie-card .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .movie-card .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background"></div>
+
+    <header>
+        <h1>Welcome to The Local Theatre</h1>
+    </header>
+
+    <nav class="n1">
+        <ul>
+            <div class="nav1">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="announcements.html">MOVIES</a></li>
+                <li><a href="reviews.html">REVIEWS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="register.html">SIGNUP</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="movie-container">
+        <div class="movie-card">
+          <img src="../LocalTheatres/images/batman.jpg" class="card-img-top" alt="Batman Poster">
+          <div class="movie-info">
+            <h5 class="card-title">Batman</h5>
+            <p class="card-text">Batman 2022: Dark knight fights villains to save Gotham.</p>
+            <a href="announcements.html" class="btn">Book Now</a>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img src="../LocalTheatres/images/unchartered.jpg" class="card-img-top" alt="Uncharted Poster">
+          <div class="movie-info">
+            <h5 class="card-title">Uncharted</h5>
+            <p class="card-text">Uncharted: A globe-trotting adventure based on the popular video game series.</p>
+            <a href="announcements.html" class="btn">Book Now</a>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img src="../LocalTheatres/images/FIR.jpg" class="card-img-top" alt="Your Movie Poster">
+          <div class="movie-info">
+            <h5 class="card-title">FIR</h5>
+            <p class="card-text">FIR: A gripping action thriller that delves into the dark underbelly of crime and corruption.<br>
+            </p>
+            <a href="announcements.html" class="btn">Book Now</a>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+        <!-- Add more movie cards here -->
+    </div>
+
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p class="centered-paragraph">
+                Discover an unforgettable movie experience at our premier theater. With state-of-the-art facilities,<br>
+                comfortable seating, and the latest blockbuster films, we're your go-to destination for cinematic enjoyment. <br>
+                Join us for an extraordinary time at the movies and create lasting memories. Welcome to our theater.
+            </p>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 The Local Theatre. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

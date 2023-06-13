@@ -1,0 +1,301 @@
+/* style.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+}
+/* Header styles */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+
+
+
+/* Navigation styles */
+nav {
+  background-color: rgb(0, 0,0.8);
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: #777;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+.centered-paragraph {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+.centered-paragraph {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+body {
+  background-image: url(../images/homebg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/homebg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(2px); 
+  z-index: -1;
+}
+
+header {
+  background-color: rgb(0, 0, 0); 
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(255, 255, 255); 
+  padding: 10px;
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0); 
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: rgb(97, 92, 92);
+}
+
+body {
+  color: rgb(255, 255, 255); 
+}
+
+h2 {
+  color: rgb(255, 255, 255); 
+}
+
+footer {
+  background-color: rgb(0, 0, 0); 
+  color: #fff; 
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.card-img-container {
+  flex: 0 0 30%;
+  padding-right: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  flex: 1;
+}
+
+.card-title {
+  margin-top: 0;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+
+.movies-section {
+  margin-top: 50px;
+}
+
+
+.about-section {
+  margin-bottom: 50px;
+}
+
+
+  
+.btn {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #000000 !important;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #f9f9f9b6 !important;
+}
+
+
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie-card {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Add this line */
+}
+
+.movie-card .movie-info {
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-card h5 {
+  margin: 10px 0;
+}
+
+.movie-card .content {
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.movie-card .btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+/* Navigation styles */
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+}

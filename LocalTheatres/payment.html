@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./payment.css">
+  <title>Payment</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="announcement.html">MOVIES</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      <li><a href="login.html">LOGIN</a></li>
+    </ul>
+  </nav>
+
+  <div class="background-image">
+    <div class="payment-container">
+      <h2>Payment Details</h2>
+      <form>
+        <div class="form-row">
+          <label for="cardNumber">Card Number:</label>
+          <input type="text" id="cardNumber" name="cardNumber" placeholder="Enter your card number">
+        </div>
+        <div class="form-row">
+          <label for="expiryDate">Expiry Date:</label>
+          <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY">
+        </div>
+        <div class="form-row">
+          <label for="cvv">CVV:</label>
+          <input type="text" id="cvv" name="cvv" placeholder="Enter CVV">
+        </div>
+        <div class="form-row">
+          <button class="btn">Pay Now</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

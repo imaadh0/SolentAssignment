@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/contact.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <title>Contact - The Local Theatre</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .form-control {
+      font-size: 24px;
+      padding: 20px;
+    }
+
+    .form-label {
+      color: #ffffff;
+    }
+
+    .form-control::placeholder {
+      font-size: 18px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CONTACT US</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="announcements.html">MOVIES</a></li>
+      <li><a href="reviews.html">REVIEWS</a></li>
+      <li><a href="login.html">LOGIN</a></li>
+      <li><a href="register.html">SIGNUP</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section>
+      <h2>Contact Information</h2>
+      <p>Phone: 081 222 2001</p>
+      <p>Email: thelocals@theatre.com</p>
+      <p>Address: 232, Peradeniya Rd, Kandy</p>
+      <P>Social Media: @TheLocalTheatres</P>
+    </section>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <form class="col-md-6">
+          <div class="mb-3">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail">
+          </div>
+          <div class="mb-3">
+            <label for="inputPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword">
+          </div>
+          <div class="mb-3">
+            <label for="inputEnquiry" class="form-label">Your Enquiry</label>
+            <input type="text" class="form-control" id="inputEnquiry" placeholder="">
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 The Local Theatre. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
